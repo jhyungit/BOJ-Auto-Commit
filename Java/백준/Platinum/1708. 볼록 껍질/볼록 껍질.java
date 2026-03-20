@@ -58,8 +58,8 @@ public class Main {
             return Long.compare(d1, d2);
 		});
 
-        // 3. Graham Scan
-        Stack<Point> stack = new Stack<>();
+        // Graham Scan
+        Deque<Point> stack = new ArrayDeque<>();
         stack.push(points[0]);
         stack.push(points[1]);
 
